@@ -1,4 +1,73 @@
+html {
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 680px) {
+    html {
+      font-size: 14px;
+    }
+  }
+
 body {
-    color: whitesmoke;
-    background-color: rgb(27, 19, 41);
+  box-sizing: border-box;
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(27, 19, 41);
+}
+
+/* headers */
+h1 {
+  font-size: 3.00rem;
+  border-bottom: 2px;
+  border-style: double;
+  width: 50%;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 2.50rem;
+}
+
+h3 {
+  font-size: 2.00rem;
+}
+
+table {
+  margin: 25px auto;
+}
+
+/* navigation bar */
+.top_bar {
+  width: 100%;
+  margin: 0px;
+  background-color: blueviolet;
+}
+
+.top_bar li{
+  display: inline-block;
+  width: 10%;
+  padding: 40px 40px;
+  margin: 0px 7.5px 15px;
+  background-color: rgb(27, 19, 41);
+}
+
+.top_bar a {
+  color: blueviolet;
+  font-size: 1.40rem;
+  text-transform: uppercase
+}
+
+/* misc */
+.bold {
+  font-weight: bold;
+}
+
+.title_section {
+  text-transform: uppercase;
 }
