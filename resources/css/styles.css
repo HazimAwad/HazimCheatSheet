@@ -66,6 +66,10 @@ td {
   text-align: left;
 }
 
+.html-tag {
+  font-family: "Share Tech Mono", monospace;
+}
+
 /* .alt_col {
   background-color: rgb(44, 32, 64);
  } */
